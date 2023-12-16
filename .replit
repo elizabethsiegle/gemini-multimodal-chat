@@ -1,0 +1,12 @@
+run = "streamlit run --server.address 0.0.0.0 --server.headless true --server.enableWebsocketCompression=false main.py"
+
+modules = ["python-3.10:v18-20230807-322e88b"]
+
+hidden = [".pythonlibs"]
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["sh", "-c", "streamlit run --server.address 0.0.0.0 --server.headless true --server.enableWebsocketCompression=false main.py"]
+deploymentTarget = "cloudrun"
