@@ -1,7 +1,8 @@
 ### Multimodal Chat with Gemini API
 - Get a [Google AI API key here](https://makersuite.google.com/app/apikey) and add it to `Secrets` in your Repl with the key `GOOGLE_API_KEY`.
 
-[Built on Replit](https://replit.com/@LizzieSiegle/gemini-multimodal-chat). -> [Test it out yourself here!](https://gemini-multimodal-chat-lizziesiegle.replit.app/)
+[Test it out yourself here!](https://gemini-multimodal-chat-lizziesiegle.replit.app/)
+
 Dependencies:
 - Streamlit
 - [Streamlit component for multimodal chat](https://github.com/het-25/st-multimodal-chatinput)
